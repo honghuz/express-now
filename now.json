@@ -5,7 +5,7 @@
         "src": "index.js",
         "use": "@now/node-server"
     }],
-    "alias": ["express.honghu.now.sh", "js-express.now.sh"],
+    "alias": "js-express.now.sh",
     "routes": [{
         "headers": {
             "Access-Control-Allow-Origin": "*",
