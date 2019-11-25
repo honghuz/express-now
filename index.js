@@ -11,7 +11,8 @@ app.listen(port, err => {
 
 app.get("/get", (req, res, next) => {
     res.json({
-        "version": process.env.VERSION
+        "Message": "Hello, now.sh......"
+//        "version": process.env.VERSION
     });
 });
 
